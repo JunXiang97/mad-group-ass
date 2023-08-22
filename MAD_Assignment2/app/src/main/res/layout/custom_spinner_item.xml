@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingStart="16dp"
+
+        android:paddingEnd="16dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000" />
+
+    <Spinner
+        android:id="@+id/spinner_location"
+
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="486dp"
+
+        android:drawableStart="@android:drawable/ic_dialog_alert"
+        android:entries="@array/categories"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:spinnerMode="dropdown"
+        android:text="Category"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
